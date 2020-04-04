@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadingDrawableActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff1c02e"
+            app:loading_renderer="CircleBroodLoadingRenderer" />
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E17384E"
+            app:loading_renderer="CoolWaitLoadingRenderer" />
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C4C3B9"
+            app:loading_renderer="BalloonLoadingRenderer" />
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#14434E"
+            app:loading_renderer="WaterBottleLoadingRenderer" />
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2B4A4B"
+            app:loading_renderer="FishLoadingRenderer" />
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#fff1c02e"
+            app:loading_renderer="ElectricFanLoadingRenderer" />
+
+        <app.dinus.com.loadingdrawable.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2B2424"
+            app:loading_renderer="DayNightLoadingRenderer" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#A09576"
+                app:loading_renderer="CollisionLoadingRenderer" />
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#FF5722"
+                app:loading_renderer="SwapLoadingRenderer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#000000"
+                app:loading_renderer="GuardLoadingRenderer" />
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#24817E"
+                app:loading_renderer="DanceLoadingRenderer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#D3CAC5"
+                app:loading_renderer="WhorlLoadingRenderer" />
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#409B81"
+                app:loading_renderer="MaterialLoadingRenderer" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#FF9800"
+                app:loading_renderer="GearLoadingRenderer" />
+
+            <app.dinus.com.loadingdrawable.LoadingView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="200dp"
+                android:background="#FFC107"
+                app:loading_renderer="LevelLoadingRenderer" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

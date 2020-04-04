@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5533"
+    tools:context=".LoadingActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- com.wang.avi:library:2.1.3 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av11"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallPulseIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av12"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallGridPulseIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av13"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallClipRotateIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av14"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallClipRotatePulseIndicator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av21"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="SquareSpinIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av22"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallClipRotateMultipleIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av23"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallPulseRiseIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av24"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallRotateIndicator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av31"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="CubeTransitionIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av32"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallZigZagIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av33"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallZigZagDeflectIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av34"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallTrianglePathIndicator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av41"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallScaleIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av42"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="LineScaleIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av43"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="LineScalePartyIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av44"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallScaleMultipleIndicator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av51"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallPulseSyncIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av52"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallBeatIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av53"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="LineScalePulseOutIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av54"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="LineScalePulseOutRapidIndicator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av61"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallScaleRippleIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av62"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallScaleRippleMultipleIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av63"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av64"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="LineSpinFadeLoaderIndicator" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av71"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="TriangleSkewSpinIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av72"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="PacmanIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av73"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="BallGridBeatIndicator" />
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/av74"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:indicatorName="SemiCircleSpinIndicator" />
+        </TableRow>
+
+
+        <!-- com.github.ybq:Android-SpinKit:1.4.0 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.RotatingPlane" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.DoubleBounce" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.Wave" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.WanderingCubes" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.Pulse" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.ChasingDots" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.ThreeBounce" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.Circle" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.CubeGrid" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.FadingCircle" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.FoldingCube" />
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorWhite"
+                style="@style/SpinKitView.RotatingCircle" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gu</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <!-- tabbar -->
+    <string name="menu_first">第一页</string>
+    <string name="menu_second">第二页</string>
+    <string name="menu_third">第三页</string>
+    <!-- Banner -->
+    <string name="hello_world">你好，世界！</string>
+
+</resources>
